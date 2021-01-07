@@ -1238,12 +1238,10 @@ form label {
 .gifts button:hover {
   transition: 0.7s;
   background-color: #d43f3a;
-  filter: invert(0.1);
+  color: white;
   box-shadow: none;
 }
-.gifts button:hover a{
-color:white;
-}
+
   
 .fh5co-heading span {
   text-transform: uppercase;
