@@ -235,8 +235,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-bg {
-  background-image: url('https://images.unsplash.com/photo-1607344645866-009c320b63e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80');
-  background-position: center center;
+  background-image: url('/images/p1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   float: left;
   position: relative;
@@ -313,7 +314,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background:url('https://lh3.googleusercontent.com/ForqPBgj-FKjYalNyH8tnWKxlxMB9QRsH96_cc2GsEEfej3Y5T2ofAYCoPJg6ZQHb595U5W1Fis5SCcYwrYqvf_fPojYCGFSz5JKe1uugdbXzUPi-_XrnF2GXUGW-FwGMdZileFYmkALLgLa0NZAy8sD4GOXRnXn54x5skNStscIJHbrw2giJ0lPet6XS3S3SE98XsX3K4jlR6BypA_8dzmahiYPrKwsHj4XVI6oUY6fv6Jic-JuR2uKxdiagDnWSx48SYBR2PnWqTL8Ilti9e4LSn45sQZ41pR_b7VtHa-_hCuJMt2DwORd-47cV0hdRu08FujXCdTS1sN-KwcvuOZ_6tzloRfgi6IuF2kzuDLaKjG2xxxgz--G87Ld9XZkAAhCrZ9ECLc5-PuQLCT_sxRrtWaeQLAk19NIdNbrMVJbbAaJ6KpMVL8fRvKq6BjAm8lwWtFiybgsDz3xNa2SlgjbOT8qKZbRCrtLZUurjg9osRgpetmklk_1h-kh1u3HSZ7yyGk-h7RblO9ottcSzw0rnNDJul-yw9_oFOWJlWN1samDiTygXcx_rIlEglSZ_XjiM3Y4KHZpqWQBTDQJP1UrfGsGXQ0OWBACt0KHUkluffUlgkYj29ONhY9g8P-iIzwhpRYSwIBzx8DHvEyllh7haQh0mf_kGaelUurvFQgvU11nvOft2NgQNTmi1A=w800-h600-no?authuser=0');
+  background:url('/images/ghome.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
