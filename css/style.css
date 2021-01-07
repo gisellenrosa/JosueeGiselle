@@ -1241,7 +1241,10 @@ form label {
   color: white;
   box-shadow: none;
 }
-
+.gifts button:hover h3 {
+  transition: 0.7s;
+ color: white!important;
+}
   
 .fh5co-heading span {
   text-transform: uppercase;
