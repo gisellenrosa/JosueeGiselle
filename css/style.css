@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #F14E95;
+  background: #d43f3a;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #F14E95;
+  background: #d43f3a;
 }
 
 ::selection {
   color: #fff;
-  background: #F14E95;
+  background: #d43f3a;
 }
 
 .fh5co-nav {
@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #F14E95;
+  color: #d43f3a;
 }
 .fh5co-nav ul li.btn-cta a span {
   background: #fff;
