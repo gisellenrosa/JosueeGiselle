@@ -238,6 +238,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-image: url('../images/p1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  
   width: 100%;
   float: left;
   position: relative;
@@ -1236,11 +1237,14 @@ form label {
 }
 .gifts button:hover {
   transition: 0.7s;
+  background-color: #d43f3a;
   filter: invert(0.1);
- 
   box-shadow: none;
- 
 }
+.gifts button:hover a{
+color:white;
+}
+  
 .fh5co-heading span {
   text-transform: uppercase;
   font-size: 13px;
