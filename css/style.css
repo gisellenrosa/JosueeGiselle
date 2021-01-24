@@ -131,6 +131,11 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.5s;
   white-space: nowrap;
 }
+@media screen and (max-width: 768px) {
+  .fh5co-nav ul li a {
+    padding: 0 10px;
+  }
+}
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
   color: white;
 }
