@@ -76,6 +76,26 @@
 	};
 
 
+	var goToLink = function() {
+
+		$('ul li a').on('click', function(event){
+
+			var targetId = event.target.href.split('#')[1];
+
+			if (targetId) {
+				event.preventDefault();
+
+				$('html, body').animate({
+					scrollTop: $('#' + targetId).offset().top
+				}, 500, 'easeInOutExpo');
+				
+				return false;
+			}
+		});
+	
+	};
+
+
 	var goToTop = function() {
 
 		$('.js-gotop').on('click', function(event){
@@ -139,6 +159,7 @@
 		contentWayPoint();
 		dropdown();
 		testimonialCarousel();
+		goToLink();
 		goToTop();
 		loaderPage();
 		counter();
